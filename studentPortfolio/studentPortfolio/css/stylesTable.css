@@ -1,0 +1,35 @@
+/*********************************************************************
+
+*Original Author: Logan Marchant                                  
+*Date Created: 11/06/2019                                       
+*Version: 1.1                                                
+*Date Last Modified: 05/03/2021                              
+*Modified by: Logan Marchant                                          
+*Modification log: 2   
+
+Mod log 1: Added a modlog for documentation.
+Mod log 2: changed color scheme.
+**********************************************************************/
+table {
+    width: 100%;
+    background-image: linear-gradient(#FFFFFF, #99999970);
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: black; 
+    border-style: solid;
+    color: white;
+    margin-bottom: 20px;
+}
+    table td, th {
+        border-width: 2px;
+        border-color: #6b7b8c;
+        border-style: solid;
+        padding: 15px;
+    }
+    table thead {
+        background-color: #1e3d59;
+        color: goldenrod;
+    }
+table tbody{
+    background-color: darkgray;
+}
